@@ -1,0 +1,25 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.sign-up-container div {
+    margin: 10px 0;
+}
+
+/* shared with SignIn.css */
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sign-form h1 { 
+    color: #e27a3f;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+}

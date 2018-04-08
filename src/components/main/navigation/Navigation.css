@@ -1,0 +1,13 @@
+.navigation {
+  flex-basis: 20%;
+  min-width: 300px;
+  padding: 40px;
+}
+
+.navigation a {
+  position: fixed;
+  bottom: 8px;
+  justify-content: center;
+  color: #e27a3f;
+  text-decoration: none;
+}

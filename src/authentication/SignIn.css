@@ -1,0 +1,44 @@
+.sign-in-container {
+    flex-basis: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.sign-in-container div {
+    margin: 10px 0;
+}
+
+/* shared with SignUp.css */
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sign-form h1 { 
+    color: #e27a3f;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+.auth-button {
+    padding: 2px 5px;
+    background: #e27a3f;
+    color: rgba(255,255,255, 0.75);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s ease-out;
+    outline: 0;
+    border: 0;
+    user-select: none;
+    color: white;
+    border-radius: 3px;
+}
+div input {
+    border-radius: 3px 0 0 3px;
+    padding-left: 5px;
+}
+div input:focus {
+    border-color: #e27a3f;
+    outline: 0;
+}

@@ -1,0 +1,30 @@
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.about-page-container div {
+    width: 40%;
+}
+
+.about-page-container li{
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.about-page-container hr {
+    width: 50%;
+}
+
+.about-page-container h4, a {
+    color: #e27a3f;
+    text-decoration: none;
+}
+
+.about-page-container p {
+    width: 100%;
+}
