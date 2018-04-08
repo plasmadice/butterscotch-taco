@@ -12,6 +12,19 @@
   overflow-y: scroll;
 }
 
+/* 1440p support */
+@media screen and (min-height: 1100px) {
+  .movies-list-container {
+    height: 1200px;
+  }
+}
+/* 4k support */
+@media screen and (min-height: 1500px) {
+  .movies-list-container {
+    height: 1500px;
+  }
+}
+
 .pagination {
   display: flex; 
   justify-content: space-between;

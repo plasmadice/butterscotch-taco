@@ -21,7 +21,8 @@ const MovieListItem = ({ movie }) => {
       <Link to={`/movie/${id}`} className="thumbnail">
         <img src={imgUrl} alt={title} />
         <div className="movie-description">
-        {/* <h2>{title}</h2> */}
+        { // only shows title if poster is placeholder
+          poster_path === null ? <h2>{title}</h2> : null}
           <section className="movie-details">
             <div className="movie-year">
               <span className="title">Year</span>
