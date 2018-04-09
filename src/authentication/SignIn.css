@@ -20,6 +20,7 @@
 .form-container {
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
 }
 .auth-button {
     padding: 2px 5px;

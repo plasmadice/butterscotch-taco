@@ -6,6 +6,8 @@ class Provider extends Component {
     constructor(props) {
         super(props)
         this.nextSearchUrl = this.nextSearchUrl.bind(this);
+        this.fetchDefaultMovies = this.fetchDefaultMovies.bind(this);
+        this.fetchMovies = this.fetchMovies.bind(this);
     }
 
     state = {
@@ -17,6 +19,7 @@ class Provider extends Component {
         page: 1,
         url: `https://api.themoviedb.org/3/genre/movie/list?api_key=7b841dfbcf70221f9a3069c60455c66b&language=en-US`,
         moviesUrl: `https://api.themoviedb.org/3/discover/movie?api_key=7b841dfbcf70221f9a3069c60455c66b&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=`,
+        defaultMoviesUrl: `https://api.themoviedb.org/3/discover/movie?api_key=7b841dfbcf70221f9a3069c60455c66b&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=`,
         genre: "Comedy",
         genres: [],
         year: {
@@ -128,10 +131,21 @@ class Provider extends Component {
         return JSON.parse(localStorage.getItem("moviedata.params"));
     }
 
+    // Movie fetch mechanisms
     fetchMovies = (url, page) => {
         this.props.history.push('/');
         this.setState({searchField: ''});
         fetch(`${url}${page}`)
+            .then(response => response.json())
+            .then(data => {
+                this.storeMovies(data)})
+            .catch(error => console.log(error));
+    }
+    // Only used on header links
+    fetchDefaultMovies = () => {
+        this.setState({searchField: ''});
+        this.setState({lastSearch: '', usedSearch: false})
+        fetch(`${this.state.defaultMoviesUrl}1`)
             .then(response => response.json())
             .then(data => {
                 this.storeMovies(data)})
@@ -221,7 +235,8 @@ class Provider extends Component {
                 onPageIncrease: this.onPageIncrease,
                 onPageDecrease: this.onPageDecrease,
                 submitSearchUrl: this.submitSearchUrl,
-                searchFieldValue: this.searchFieldValue
+                searchFieldValue: this.searchFieldValue,
+                fetchDefaultMovies: this.fetchDefaultMovies
             }}>
                 {this.props.children}
             </MovieContext.Provider>

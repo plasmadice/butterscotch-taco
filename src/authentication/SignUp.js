@@ -75,7 +75,7 @@ class SignUpForm extends Component {
         <form 
         className='sign-form'
         onSubmit={this.onSubmit}>
-          <h1>Create an account</h1>
+          <h1>Create an Account</h1>
           <div>
             <input
               value={username}

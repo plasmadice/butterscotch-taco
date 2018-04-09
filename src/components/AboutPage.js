@@ -9,13 +9,9 @@ class AboutPage extends Component {
                     <h1>Words and Stuff</h1>
                     <h4><a href='https://github.com/plasmadice'>Link to My Github</a></h4>
                     <p>
-                        First project that took me more than a week 
-                        (3 weeks total). 
                         React is an awesome library and I hope to 
-                        master it. Next project or two will be about 
-                        design. I may revisit this when my CSS skills 
-                        are advanced. The name for this project was 
-                        probably half of the work. I went with a random 
+                        master it. Check out my github profile for updates. 
+                        Picking a name for the site was a struggle. I went with a random 
                         name generator.
                     </p>
                     <hr />
@@ -27,6 +23,7 @@ class AboutPage extends Component {
                         <li><a href='https://www.launchcode.org/'>LaunchCode</a> for the push in the right direction</li>
                         <li>Thank you to everyone who provided feedback!</li>
                     </ul>
+                    <hr />
                     <h4>
                         <a href="mailto:phoenixquint@gmail.com?Subject=Butterscotch%20Taco" target="_top">
                             Contact Me
