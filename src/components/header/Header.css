@@ -1,5 +1,5 @@
 header {
-  height: 80px;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +33,7 @@ header div {
 
 .logo-container img {
   margin: 0 5px;
+  min-height: 8vh;
   max-height:100%;
   max-width: 100%;
   user-drag: none; 

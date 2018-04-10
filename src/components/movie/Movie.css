@@ -33,7 +33,7 @@
 
 .movie-page .movie-image {
   flex-basis: 100%;
-  height: 575px;
+  height: 61vh;
   background-size: cover;
   background-position: center center;
 }

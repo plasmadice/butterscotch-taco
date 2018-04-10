@@ -8,22 +8,22 @@
 
 .movies-list-container {
   width: 100%;
-  height: 850px;
+  height: 90vh;
   overflow-y: scroll;
 }
 
 /* 1440p support */
-@media screen and (min-height: 1100px) {
+/* @media screen and (min-height: 1100px) {
   .movies-list-container {
-    height: 1200px;
+    height: 90vh;
   }
-}
+} */
 /* 4k support */
-@media screen and (min-height: 1500px) {
+/* @media screen and (min-height: 1500px) {
   .movies-list-container {
-    height: 1500px;
+    height: 90vh;
   }
-}
+} */
 
 .pagination {
   display: flex; 
