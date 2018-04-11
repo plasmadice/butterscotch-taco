@@ -8,6 +8,8 @@ class Provider extends Component {
         this.nextSearchUrl = this.nextSearchUrl.bind(this);
         this.fetchDefaultMovies = this.fetchDefaultMovies.bind(this);
         this.fetchMovies = this.fetchMovies.bind(this);
+        this.onPageDecrease = this.onPageDecrease.bind(this);
+        this.onPageIncrease = this.onPageIncrease.bind(this);
     }
 
     state = {
@@ -143,8 +145,10 @@ class Provider extends Component {
     }
     // Only used on header links
     fetchDefaultMovies = () => {
-        this.setState({searchField: ''});
-        this.setState({lastSearch: '', usedSearch: false})
+        this.setState({lastSearch: '', 
+            usedSearch: false, 
+            searchField: '', 
+            page: 1})
         fetch(`${this.state.defaultMoviesUrl}1`)
             .then(response => response.json())
             .then(data => {
