@@ -81,7 +81,12 @@ class Movie extends Component {
                   </h5>
                   <h4>Overview</h4>
                   <p>{overview}</p>
-                  <a href={`https://www.themoviedb.org/movie/${this.props.match.params.movieId}`} target='_blank'>View {this.state.movie.title} on Themoviedb.org</a>
+                  <a 
+                  href={`https://www.themoviedb.org/movie/${this.props.match.params.movieId}`} 
+                  target='_blank'
+                  rel="noopener noreferrer">
+                    View {this.state.movie.title} on Themoviedb.org
+                  </a>
                 </div>
               </div>
         }
