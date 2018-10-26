@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import dab from '../../images/dab.png';
 import { Link } from "react-router-dom";
 import { MovieContext } from '../Provider';
 import LoginControl from '../../authentication/LoginControl';
