@@ -9,37 +9,44 @@ import SignUpPage from '../../authentication/SignUp';
 import SignInPage from '../../authentication/SignIn';
 
 class Main extends Component {
+  static contextType = MovieContext;
+
   render() {
+    const { 
+      onChange, 
+      onGenreChange, 
+      setGenres, 
+      onSearchButtonClick,
+      submitSearchUrl,
+      searchFieldValue,
+      onPageIncrease,
+      onPageDecrease
+    } = this.context;
+
     return (
       <section className="main">
-        <MovieContext.Consumer>
-          {context => 
-          <React.Fragment>
-            <Navigation 
-              onChange={context.onChange} 
-              onGenreChange={context.onGenreChange}
-              setGenres={context.setGenres} 
-              onSearchButtonClick={context.onSearchButtonClick}
-              submitSearchUrl={context.submitSearchUrl}
-              searchFieldValue={context.searchFieldValue}
-              {...context.state} 
-            />
-            <Switch>
-              <Route exact path='/' render={() => (
-                <Movies 
-                  movies={context.state.movies}
-                  page={context.state.page}
-                  onPageIncrease={context.onPageIncrease}
-                  onPageDecrease={context.onPageDecrease}
-                />
-              )} />
-              <Route exact path='/signup' component={SignUpPage} />
-              <Route exact path='/signin' component={SignInPage} />
-              <Route exact path='/about' component={AboutPage} /> 
-            </Switch>
-          </React.Fragment>
-          }
-        </MovieContext.Consumer>
+          <Navigation 
+            onChange={onChange} 
+            onGenreChange={onGenreChange}
+            setGenres={setGenres} 
+            onSearchButtonClick={onSearchButtonClick}
+            submitSearchUrl={submitSearchUrl}
+            searchFieldValue={searchFieldValue}
+            {...this.context.state} 
+          />
+          <Switch>
+            <Route exact path='/' render={() => (
+              <Movies 
+                movies={this.context.state.movies}
+                page={this.context.state.page}
+                onPageIncrease={onPageIncrease}
+                onPageDecrease={onPageDecrease}
+              />
+            )} />
+            <Route exact path='/signup' component={SignUpPage} />
+            <Route exact path='/signin' component={SignInPage} />
+            <Route exact path='/about' component={AboutPage} /> 
+          </Switch>
       </section>
     )
   }

@@ -9,6 +9,4 @@ const Button = ({ onClick, children }) => (
   </div>
 )
 
-// used withRouter higher order component to access history
-
 export default Button;

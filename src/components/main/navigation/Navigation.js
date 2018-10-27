@@ -15,7 +15,19 @@ class Navigation extends Component {
   }
 
   render() {
-    const { genre, genres, onGenreChange, onChange, year, rating, runtime, onSearchButtonClick, submitSearchUrl, searchFieldValue } = this.props;
+    const { 
+      genre, 
+      genres, 
+      onGenreChange, 
+      onChange, 
+      year, 
+      rating, 
+      runtime, 
+      onSearchButtonClick, 
+      submitSearchUrl, 
+      searchFieldValue 
+    } = this.props;
+    
     return (
       <section className="navigation">
         <SearchField submitSearchUrl={submitSearchUrl}
