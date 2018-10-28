@@ -1,8 +1,16 @@
 {
-  "main.css": "static/css/main.59056c8f.css",
-  "main.css.map": "static/css/main.59056c8f.css.map",
-  "main.js": "static/js/main.f3cc427b.js",
-  "main.js.map": "static/js/main.f3cc427b.js.map",
-  "static/media/dab.png": "static/media/dab.210eff7b.png",
-  "static/media/placeholder.jpg": "static/media/placeholder.74f199f9.jpg"
+  "main.css": "/butterscotch-taco/static/css/main.6d7e42ec.chunk.css",
+  "main.js": "/butterscotch-taco/static/js/main.afc7cbab.chunk.js",
+  "main.js.map": "/butterscotch-taco/static/js/main.afc7cbab.chunk.js.map",
+  "static/css/1.cd62d6e6.chunk.css": "/butterscotch-taco/static/css/1.cd62d6e6.chunk.css",
+  "static/js/1.482768dc.chunk.js": "/butterscotch-taco/static/js/1.482768dc.chunk.js",
+  "static/js/1.482768dc.chunk.js.map": "/butterscotch-taco/static/js/1.482768dc.chunk.js.map",
+  "runtime~main.js": "/butterscotch-taco/static/js/runtime~main.3d7b5c3a.js",
+  "runtime~main.js.map": "/butterscotch-taco/static/js/runtime~main.3d7b5c3a.js.map",
+  "static/css/1.cd62d6e6.chunk.css.map": "/butterscotch-taco/static/css/1.cd62d6e6.chunk.css.map",
+  "static/media/placeholder.jpg": "/butterscotch-taco/static/media/placeholder.74f199f9.jpg",
+  "static/css/main.6d7e42ec.chunk.css.map": "/butterscotch-taco/static/css/main.6d7e42ec.chunk.css.map",
+  "index.html": "/butterscotch-taco/index.html",
+  "precache-manifest.675b4f87b58021930d044b8f2eda1db1.js": "/butterscotch-taco/precache-manifest.675b4f87b58021930d044b8f2eda1db1.js",
+  "service-worker.js": "/butterscotch-taco/service-worker.js"
 }
