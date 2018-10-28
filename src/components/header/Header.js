@@ -3,6 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import { MovieContext } from '../Provider';
 import LoginControl from '../../authentication/LoginControl';
+import Hamburger from './Hamburger';
 
 
 class Header extends Component {
@@ -13,6 +14,7 @@ class Header extends Component {
     return (
       <header>
         <div className='logo-container'>
+          <Hamburger />
           <Link to='/' 
           onClick={fetchDefaultMovies}>
             <h1 className='header-name'>Butterscotch Taco</h1>

@@ -16,7 +16,7 @@ class SearchField extends Component {
                 <input className="search-box" 
                     type="text" 
                     onChange={searchFieldValue} 
-                    placeholder='search for something'
+                    placeholder='search'
                     ref={(input) => { this.searchInput = input; }}
                     />
                 <button type="submit" value="Search">Search</button>
