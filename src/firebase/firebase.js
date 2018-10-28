@@ -2,7 +2,7 @@ import * as firebase from 'firebase';
 import 'firebase/firestore';
 
 const config = {
-    apiKey: "AIzaSyADesH49UdhJDIRgqjgJA1V7E1HneH3Xrk",
+    apiKey: process.env.REACT_APP_FB_KEY,
     authDomain: "butterscotch-taco.firebaseapp.com",
     databaseURL: "https://butterscotch-taco.firebaseio.com",
     projectId: "butterscotch-taco",

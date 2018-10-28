@@ -2,10 +2,15 @@
 This app was created to showcase the ability to implement certain features. Specifically the use of React, a database, and an API in conjunction.
 
 ## How it Works // Getting Started
+
+#### Before starting
+Unless you are using the [live version](https://plasmadice.github.io/butterscotch-taco/) of the website you will need your own [Firebase](firebase.google.com/) Web API Key Place yours in `/firebase/firebase.js`
+
 To start: Clone this repository and `cd` into the root folder.
 ##### -For a development build
 Run `npm install` to get the required dependencies followed by `npm start`.
 ##### -For a production build
+`npm install` to get depdendencies, 
 `npm install -g serve` to get a static server.
 Run `npm build` to get a production build followed by `serve -s build`
 
