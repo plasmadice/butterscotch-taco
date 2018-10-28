@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 20px 0;
+  justify-content: center;
 }
 
 .movies-list-container {
