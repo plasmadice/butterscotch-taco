@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/butterscotch-taco/static/js/runtime~main.3d7b5c3a.js"
   },
   {
-    "revision": "afc7cbabbc46008d1422",
-    "url": "/butterscotch-taco/static/js/main.afc7cbab.chunk.js"
+    "revision": "4d31d008068be80d4a4f",
+    "url": "/butterscotch-taco/static/js/main.4d31d008.chunk.js"
   },
   {
-    "revision": "482768dc30888bd9dafb",
-    "url": "/butterscotch-taco/static/js/1.482768dc.chunk.js"
+    "revision": "ef473473e4230c7c2204",
+    "url": "/butterscotch-taco/static/js/1.ef473473.chunk.js"
   },
   {
-    "revision": "afc7cbabbc46008d1422",
+    "revision": "4d31d008068be80d4a4f",
     "url": "/butterscotch-taco/static/css/main.6d7e42ec.chunk.css"
   },
   {
-    "revision": "482768dc30888bd9dafb",
+    "revision": "ef473473e4230c7c2204",
     "url": "/butterscotch-taco/static/css/1.cd62d6e6.chunk.css"
   },
   {
-    "revision": "a04f2d0cbf6334a3f5318efe2c7b6f3d",
+    "revision": "8bb361c470cf0e1e6fb1ba1282847366",
     "url": "/butterscotch-taco/index.html"
   }
 ];
