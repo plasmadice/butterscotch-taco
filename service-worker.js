@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/butterscotch-taco/precache-manifest.48fb198e25c6b7cd749bdce8ce57709a.js"
+  "/butterscotch-taco/precache-manifest.788d5864c49a0b556390b463ba161a1c.js"
 );
 
 workbox.clientsClaim();
