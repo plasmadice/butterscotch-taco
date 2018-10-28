@@ -29,3 +29,9 @@ As of 10/25 overhauling the site with the help of [https://github.com/EUsha5](ht
 5. Add accessibility
 6. Remove search sliders as they are not very accessible, replace some with search fields
 7. Improve search capabilities
+
+### Issues
+* The autofocus on searchbar is actually annoying on mobile
+* Margin-left on "You are viewing results"
+* Test showing movie names on mobile
+* Test adding transition to movie-container
