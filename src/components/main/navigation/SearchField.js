@@ -10,6 +10,7 @@ class SearchField extends Component {
 
     render () {
         const { submitSearchUrl, searchFieldValue } = this.props;
+        
         return (
             <form onSubmit={submitSearchUrl} className="search-field">
                 <input className="search-box" 

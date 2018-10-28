@@ -1,7 +1,17 @@
 .navigation {
   flex-basis: 20%;
-  min-width: 300px;
-  padding: 40px;
+  min-width: 200px;
+  padding: 20px;
+  transition: 0.5s;
+  position: fixed;
+  left: -340px;
+}
+
+@media screen and (min-width: 800px) {
+  .navigation {
+    left: 0;
+    position: relative;
+  }
 }
 
 .navigation a {

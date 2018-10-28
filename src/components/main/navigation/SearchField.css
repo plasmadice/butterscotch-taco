@@ -3,13 +3,13 @@
     justify-content: center;
     padding-bottom: 20px;
     border-bottom: 2px solid #e27a3f;
+    width: 100%;
 }
 
 .search-field button {
     padding: 5px 15px;
     background: #e27a3f;
     color: rgba(255,255,255, 0.75);
-    font-size: 1rem;
     cursor: pointer;
     transition: color 0.2s ease-out;
     outline: 0;
@@ -19,9 +19,16 @@
     border-radius: 0 3px 3px 0;
 }
 
+@media screen and (min-width: 800px) {
+    .search-field button {
+        padding: 5px 8px;
+    }
+}
+
 .search-box {
     border-radius: 3px 0 0 3px;
     padding-left: 5px;
+    width: 80%;
 }
 
 /* 1440p support */
