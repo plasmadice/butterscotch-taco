@@ -12,8 +12,23 @@ header a {
 }
 
 .header-name {
-  font-size: 2rem;
   color: #e27a3f;
+}
+
+.header-name {
+  font-size: 1rem;
+  text-align: center;
+  color: #e27a3f;
+}
+
+@media screen and (min-width: 800px) {
+  .header-name {  
+    font-size: 2rem;
+  }
+
+  header .logo-container {
+    margin-left: 20px;
+  }
 }
 
 .button-link {
@@ -21,7 +36,8 @@ header a {
 }
 
 .logo-container {
-  margin: 0 0 0 20px;
+  margin: 0;
+  height: 90%;
   display: flex;
 }
 

@@ -2,10 +2,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 5px 10px 5px 0;
   }
 
 .login-button button {
-    margin-right: 20px;
+    margin: 0px 5px;
     padding: 10px 21px;
     background: #e27a3f;
     color: rgba(255,255,255, 0.75);

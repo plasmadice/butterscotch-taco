@@ -22,7 +22,6 @@ Run `npm build` to get a production build followed by `serve -s build`
 ### TODO & WIP
 As of 10/25 overhauling the site with the help of [https://github.com/EUsha5](https://github.com/EUsha5).
 
-0. Fix issue on mobile with header stretching page horizontally
 1. Improve readability of code // ~half done
 2. Improve component structure to need Context less
 3. Refactor components to be up to date (remove constructors where not necessary)
