@@ -12,14 +12,15 @@ Run `npm build` to get a production build followed by `serve -s build`
 ## Credit - Contribution - Licensing
 * [TMDB](https://www.themoviedb.org/). With it we're able to acquire the information needed to generate our Movie components.
 * [Google's Firebase](https://firebase.google.com/) for it's authentication and storage features.
+* [Hamburgers](https://jonsuh.com/hamburgers/) for the nifty hamburger menu
 
 ### TODO & WIP
 As of 10/25 overhauling the site with the help of [https://github.com/EUsha5](https://github.com/EUsha5).
 
-1. Improve readability of code
+1. Improve readability of code // ~half done
 2. Improve component structure to need Context less
 3. Refactor components to be up to date (remove constructors where not necessary)
-4. Add responsiveness (grid system, hamburger menu, etc)
+4. Add responsiveness (grid system, hamburger menu, etc) ~mostly done
 5. Add accessibility
 6. Remove search sliders as they are not very accessible, replace some with search fields
 7. Improve search capabilities
