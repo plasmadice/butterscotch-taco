@@ -2,7 +2,7 @@
   "name": "butterscotch-taco",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://plasmadice.github.io/butterscotch-taco",
+  "homepage": "butterscotchtaco.com",
   "dependencies": {
     "firebase": "^4.13.1",
     "gh-pages": "^1.2.0",
