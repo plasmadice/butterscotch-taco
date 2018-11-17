@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/butterscotch-taco/precache-manifest.788d5864c49a0b556390b463ba161a1c.js"
+  "butterscotchtaco.com/precache-manifest.7d461350312c2e282b71e47cf88ec0d0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/butterscotch-taco/index.html", {
+workbox.routing.registerNavigationRoute("butterscotchtaco.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
